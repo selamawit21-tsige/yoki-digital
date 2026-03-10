@@ -1,0 +1,63 @@
+@import "tailwindcss"; /* This one line replaces all the old @tailwind directives in v4 */
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 10, 10, 10;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  scroll-behavior: smooth;
+}
+@media print {
+  /* Hide the download button and navigation when printing */
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    padding: 0 !important;
+  }
+
+  /* Ensure the Teal colors show up in the PDF */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+@media print {
+  /* This hides the floating buttons when the PDF is generated */
+  .fixed {
+    display: none !important;
+  }
+}
+/* If you have custom layer styles, you now use @theme or @utility in v4 */
+
+@layer base {
+  body {
+    /* Pure, clean professional background */
+    background: #ffffff; 
+    color: #0f172a; /* Deep slate for readability, not pure black */
+    scroll-behavior: smooth;
+  }
+}
+
+/* A soft, bright gradient for sections that need a "lift" */
+.bg-soft-teal {
+  background: linear-gradient(120deg, #f0fdfa 0%, #ffffff 100%);
+}
+.bg-yoki-theme {
+  background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+html {
+  scroll-behavior: smooth;
+}
