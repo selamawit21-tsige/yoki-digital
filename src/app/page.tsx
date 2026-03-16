@@ -94,7 +94,7 @@ export default function YokiFullSite() {
         title: "Live Resume", 
         img: "💻", 
         desc: "Includes Dark Mode, Download-to-PDF, and Skill Animations.",
-        link: "/resume" 
+        link: "https://resume-ten-tau-57.vercel.app/" 
       },
   { 
   title: "Digital Invite", 
@@ -131,6 +131,7 @@ export default function YokiFullSite() {
 >
   {item.title === "Corporate Profiles" ? "Get a Quote" : "Live Preview"} <ArrowRight size={18} />
 </a>
+
       </div>
     ))}
   </div>
