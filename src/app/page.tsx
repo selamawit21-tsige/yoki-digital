@@ -131,9 +131,6 @@ export default function YokiFullSite() {
 >
   {item.title === "Corporate Profiles" ? "Get a Quote" : "Live Preview"} <ArrowRight size={18} />
 </a>
-
-
-
       </div>
     ))}
   </div>
