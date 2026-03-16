@@ -96,12 +96,12 @@ export default function YokiFullSite() {
         desc: "Includes Dark Mode, Download-to-PDF, and Skill Animations.",
         link: "/resume" 
       },
-      { 
-        title: "Digital Invite", 
-        img: "✉️", 
-        desc: "Includes RSVP Database, Google Maps, and Countdown Timer.",
-        link: "/invite" 
-      },
+  { 
+  title: "Digital Invite", 
+  img: "✉️", 
+  desc: "Includes RSVP Database, Google Maps, and Countdown Timer.",
+  link: "https://invitations-kappa.vercel.app/" 
+},
       { 
         title: "Smart Menu", 
         img: "🍽️", 
