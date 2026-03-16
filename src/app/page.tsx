@@ -122,13 +122,18 @@ export default function YokiFullSite() {
           <p className="text-slate-500 text-sm mb-6 leading-relaxed">{item.desc}</p>
         </div>
 
-        {/* This dynamic link now points to the specific item.link */}
-        <a 
-          href={item.link} 
-          className="text-teal-600 font-bold flex items-center gap-2 hover:gap-4 transition-all cursor-pointer"
-        >
-          {item.title === "Corporate Profiles" ? "Get a Quote" : "Live Preview"} <ArrowRight size={18} />
-        </a>
+     {/* This dynamic link now points to the specific item.link */}
+<a 
+  href={item.link} 
+  target="_blank"             // <--- ADD THIS: Opens the Vercel link in a new tab
+  rel="noopener noreferrer"    // <--- ADD THIS: Security for external links
+  className="text-teal-600 font-bold flex items-center gap-2 hover:gap-4 transition-all cursor-pointer"
+>
+  {item.title === "Corporate Profiles" ? "Get a Quote" : "Live Preview"} <ArrowRight size={18} />
+</a>
+
+
+
       </div>
     ))}
   </div>
