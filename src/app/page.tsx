@@ -69,7 +69,7 @@ export default function YokiFullSite() {
         </h2>
         <p className="text-xl text-slate-500 max-w-2xl mx-auto mb-10">
           I build high-performance digital alternatives for professionals. 
-          Stop sending boring PDFs—start sending <b>Yoki</b> links.
+          Stop sending boring PDFs start sending <b>Yoki</b> links.
         </p>
         <div className="flex flex-col md:flex-row justify-center gap-4">
           <a href="#calculator" className="bg-slate-900 text-white hover:bg-teal-600 rounded-full py-4 px-10 font-bold flex items-center justify-center gap-2 transition-transform hover:scale-105">
@@ -245,11 +245,11 @@ export default function YokiFullSite() {
   </div>
   <h3 className="text-3xl font-bold mb-6 italic uppercase tracking-tighter text-slate-900">The Vision Behind Yoki</h3>
   <p className="text-slate-500 leading-relaxed text-lg italic">
-     At Yoki Digital, I bridge the gap between traditional business and the 
-    modern web. I specialize in creating high-performance digital experiences—from 
-    interactive smart menus for restaurants to luxury event invitations—that turn 
-    passive viewers into active customers. My mission is to provide local
-     businesses with the same elite-level technology
+     At Yoki Digital, We bridge the gap between traditional business and the 
+    modern web. We specialize in creating high-performance digital experiences from 
+    interactive smart menus for restaurants to luxury event invitations that turn 
+    passive viewers into active customers. our mission is to provide local
+     businesses with the same elite level technology
      used by global brands, delivered with speed and precision.
   </p>
 </section>
@@ -260,7 +260,7 @@ export default function YokiFullSite() {
       {/* --- CONTACT SECTION --- */}
 <section id="contact" className="py-24 px-6 max-w-xl mx-auto text-center">
   <h3 className="text-4xl font-black mb-6 uppercase italic text-slate-900">Ready to Upgrade?</h3>
-  <p className="text-slate-500 mb-10">Fill in your details and I&apos;ll get back to you... within 4 hours.</p>
+  <p className="text-slate-500 mb-10">Fill in your details and We&apos;ll get back to you... within 4 hours.</p>
   <form onSubmit={handleSubmit} className="space-y-4 text-left">
     <div>
       <label className="text-xs font-bold text-gray-500 uppercase mb-2 block">Full Name</label>
@@ -305,7 +305,7 @@ export default function YokiFullSite() {
 </section>
 
       <footer className="py-10 text-center border-t border-slate-100 opacity-30 text-xs font-mono">
-        © 2026 YOKI DIGITAL BY [Selamawit H.] • BUILT WITH NEXT.JS
+        © 2026 YOKI DIGITAL 
       </footer>
     </div>
   );
