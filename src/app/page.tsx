@@ -279,7 +279,7 @@ export default function YokiFullSite() {
         name="email"
         type="email" 
         required
-        placeholder="selam@example.com" 
+        placeholder="yokidigitals@example.com" 
         className="w-full bg-white border border-slate-200 p-4 rounded-xl focus:border-teal-500 outline-none transition text-slate-900" 
       />
     </div>
