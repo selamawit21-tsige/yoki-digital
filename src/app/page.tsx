@@ -268,7 +268,7 @@ export default function YokiFullSite() {
         name="name"
         type="text" 
         required
-        placeholder="e.g. selam haile " 
+        placeholder="e.g. yoki digitals " 
         className="w-full bg-white border border-slate-200 p-4 rounded-xl focus:border-teal-500 outline-none transition text-slate-900" 
       />
     </div>
