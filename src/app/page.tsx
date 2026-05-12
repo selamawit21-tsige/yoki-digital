@@ -10,10 +10,10 @@ export default function YokiFullSite() {
   const router = useRouter();
 
   const services = [
-    { id: 'resume', name: 'Interactive Live Resume', price: 1000, icon: <Layout className="text-teal-600" /> },
-    { id: 'invite', name: 'Digital Event Invitation', price: 3000, icon: <Send className="text-teal-600" /> },
-    { id: 'menu', name: 'Smart QR Restaurant Menu', price: 5000, icon: <Smartphone className="text-teal-600" /> },
-    { id: 'site', name: 'Custom Small Business Site', price: 10000, icon: <Globe className="text-teal-600" /> },
+    { id: 'resume', name: 'Interactive Live Resume', price: 2000, icon: <Layout className="text-teal-600" /> },
+    { id: 'invite', name: 'Digital Event Invitation', price: 5000, icon: <Send className="text-teal-600" /> },
+    { id: 'menu', name: 'Smart QR Restaurant Menu', price: 10000, icon: <Smartphone className="text-teal-600" /> },
+    { id: 'site', name: 'Custom Small Business Site', price: 30000, icon: <Globe className="text-teal-600" /> },
   ];
 
   const toggleService = (price: number, checked: boolean) => {
@@ -191,7 +191,7 @@ export default function YokiFullSite() {
         <div>
           <span className="text-xs font-bold text-slate-500 uppercase tracking-widest">Single Event</span>
           <h4 className="text-2xl font-bold mt-2 mb-6 text-slate-900">Digital Invite</h4>
-          <div className="text-4xl font-black mb-6 italic text-teal-600">3k birr</div>
+          <div className="text-4xl font-black mb-6 italic text-teal-600">5k birr</div>
           <ul className="space-y-4 text-sm text-slate-500 mb-8">
             <li className="flex items-center gap-2">✓ Animated Glass-morphism</li>
             <li className="flex items-center gap-2">✓ RSVP Direct to Email</li>
@@ -207,7 +207,7 @@ export default function YokiFullSite() {
         <div>
           <span className="text-xs font-bold text-teal-600 uppercase tracking-widest">Business Utility</span>
           <h4 className="text-2xl font-bold mt-2 mb-6 text-slate-900">Smart QR Menu</h4>
-          <div className="text-4xl font-black mb-6 italic text-teal-600">5k birr</div>
+          <div className="text-4xl font-black mb-6 italic text-teal-600">10k birr</div>
           <ul className="space-y-4 text-sm text-slate-500 mb-8">
             <li className="flex items-center gap-2">✓ Interactive Category Filter</li>
             <li className="flex items-center gap-2">✓ Printable High-Res QR Code</li>
