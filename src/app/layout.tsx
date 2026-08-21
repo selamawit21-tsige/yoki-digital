@@ -18,6 +18,10 @@ export const metadata = {
     locale: 'en_US',
     type: 'website',
   },
+  icons: {
+    icon: '/globe.svg',
+    apple: '/globe.svg',
+  },
 };
 
 // 2. The Default Export (The part that was missing)

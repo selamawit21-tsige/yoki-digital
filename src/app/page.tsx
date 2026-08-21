@@ -112,7 +112,7 @@ export default function YokiFullSite() {
         title: "Corporate Profiles",
         img: "🏢",
         desc: "SEO-ready multi-page websites for established companies.",
-        link: "#contact" 
+        link: "/corporate" 
       }
     ].map((item, i) => (
       <div key={i} className="bg-slate-50 border border-slate-100 p-8 rounded-3xl hover:border-teal-600/50 transition group flex flex-col justify-between">
